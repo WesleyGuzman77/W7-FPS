@@ -10,7 +10,7 @@ public class DoorOpen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //playerScript = GameObject.Find("Player").GetComponent<PlayerController>();
+        playerScript = GameObject.Find("Player").GetComponent<PlayerController>();
         //connceting player script to door open script
     }
 

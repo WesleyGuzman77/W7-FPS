@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     // to be able to edit the look sensitivity in the inspector
     float xRotation = 0;
 
-    public TMP_Text itemText;
+    //public TMP_Text itemText;
     // Describe what the item text is
     public string lookingAt = "Nothing!";
     // The text that u start when looking at nothing
@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
         //Cursor.lockState = CursorLockMode.Locked;
         characterControl = GetComponent<CharacterController>();
         // connecting the charcter controller component into the code
-        itemText.text = lookingAt;
+        //itemText.text = lookingAt;
         // display the text that set for whatever the player is llooking at 
     }
 

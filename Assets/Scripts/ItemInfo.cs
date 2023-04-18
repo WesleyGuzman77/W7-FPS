@@ -29,7 +29,7 @@ public class ItemInfo : MonoBehaviour
     {
         Debug.Log(ItemName);
         //show key item name in debug menu
-        playerScript.itemText.text = ItemName;
+        //playerScript.itemText.text = ItemName;
         //changing the item display name to key 
     }
 
